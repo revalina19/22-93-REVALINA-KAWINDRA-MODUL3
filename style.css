@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #281915;
+    height: 90px;
+    width: 100%;
+    color:white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    float: left;
+    padding: 20px 40px;
+}
+.logo img{
+    margin: auto;
+    width: 55px;
+    height: 55px;
+}
+.list li{
+    float: left;
+    padding: 33px 40px;
+}
+.ul{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto ;
+}
+.banner{
+    text-align: center;
+    color: #3b301a;
+    padding: 200px 0px 100px 0px;
+    background-image: url(bg.jpg);
+    background-size: cover
+}
+.banner p{
+    font-size: 100px;
+    font-family: Tangerine, fantasy;
+    font-style: oblique;
+    text-shadow: 10px 10px 15px rgb(3, 3, 3);
+}
+.banner h2{
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 08;
+    font-family: Special Elite, fantasy;    
+}
+.judul-content {
+    font-size: 28px;
+    border-bottom: 2px solid #c9ad7b;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    color: #3f2106;
+}
+.menu{
+    float: left;
+    margin-right: 50px;
+}
+.menu p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Special Elite, fantasy;
+}
+.container img{
+    width: 240px;
+    height: 288px;
+}
+.btn-reser{
+    text-align: center;
+    /* margin-top: 50px;
+    padding-top: 480px; */
+    font-family: Special Elite, fantasy; 
+}
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    color: #fff;
+}
+.reser{
+    margin-top: 50px;
+    padding-top: 350px;
+}
+.reser p{
+    font-size: 20px;
+    font-family: Special Elite, fantasy;
+}
+input, textarea{
+    border: 1px solid #dee7ec;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.submit {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #2b2116;
+    background-color: #b48e5c;
+    font-family: Special Elite, fantasy;
+}
+footer {
+    background-color: #281915;
+    color: #fff;
+    padding: 40px;
+    height: 120px;
+}
+.logo2{
+    float: left;
+    padding: 20px 40px;
+}
+.logo2 img{
+    margin: auto;
+    width: 115px;
+    height: 115px;
+}
